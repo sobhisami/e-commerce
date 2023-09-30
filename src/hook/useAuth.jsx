@@ -3,9 +3,9 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
 import { AUTH_API_URL } from "@/config/api";
-import { AUTH_ACTIONS, AUTH_API_PATHS } from "@/constants/auth";
-import { PATHS } from "@/constants/path";
-import { ROLES } from "@/constants";
+import { AUTH_ACTIONS, AUTH_API_PATHS } from "@/constant/auth";
+import { PATHS } from "@/constant/path";
+import { ROLES } from "@/constant";
 
 const initialState = {
   isAuth: localStorage.getItem("isAuth") || false,

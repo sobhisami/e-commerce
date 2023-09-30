@@ -1,6 +1,6 @@
 import { useReducer } from 'react';
 import axios from 'axios';
-import { AUTH_ACTIONS } from '@/constants/auth';
+import { AUTH_ACTIONS } from '@/constant/auth';
 
 const initialState = {
   users: [],
